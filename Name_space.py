@@ -1,4 +1,5 @@
 def fake_bin(x):
+    # comment
     res = ""
     for i in x:
         if int(i) < 5:
