@@ -1,6 +1,10 @@
 # commit
 
 def fake_bin(x):
+    """""
+    :param x
+    """
+
     res = ""
     for i in x:
         if int(i) < 5:
