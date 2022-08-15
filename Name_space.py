@@ -1,9 +1,7 @@
 # commit
 
 def fake_bin(x):
-    """""
-    :param x
-    """
+
 
     res = ""
     for i in x:
@@ -14,3 +12,6 @@ def fake_bin(x):
         res += res.join(i)
     return res
 print(fake_bin("800857237867"))
+
+c = 1
+# another comment
