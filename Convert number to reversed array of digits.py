@@ -1,4 +1,4 @@
-n = 7654
-n = str(n)
-c = [int(i) for i in n]
-print(c[::-1])
+def digitize(n):
+    n = str(n)
+    c = [int(i) for i in n]
+    print(c[::-1])
